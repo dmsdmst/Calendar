@@ -37,7 +37,7 @@
 
 ```
 {
-    "id": "아이디",
+    "schedule_id": "아이디",
     "name": "작성자",
     "title": "제목",
     "createdDate": "YYYY-MM-DD HH:mm:ss",
@@ -47,7 +47,7 @@
   
   | 이름          | 타입     | 설명      |
   |-------------|--------|---------|
-  | id          | int    | 일정 고유번호 |
+  | schedule_id | int    | 일정 고유번호 |
   | name        | String | 작성자명    |
   | title       | String | 일정 제목   |      
   | createdDate | String | 생성 일시   |   
@@ -71,7 +71,7 @@
 ```
 [
   {
-      "id": "아이디",
+      "schedule_id": "아이디",
       "name": "작성자",
       "title": "제목",
       "createdDate": "YYYY-MM-DD HH:mm:ss"
@@ -87,7 +87,7 @@
   
   | 이름          | 타입     | 설명      |
   |-------------|--------|---------|
-  | id          | int    | 일정 고유번호 |
+  | schedule_id | int    | 일정 고유번호 |
   | title       | String | 일정 제목   |
   | name        | String | 작성자명    |
   | createdDate | String | 생성 일자   |
